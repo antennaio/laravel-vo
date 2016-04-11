@@ -1,0 +1,35 @@
+{
+    "name": "antennaio/laravel-vo",
+    "description": "Making the most of value objects in Laravel",
+    "keywords": ["laravel", "php", "value object"],
+    "license": "MIT",
+    "homepage": "https://github.com/antennaio/laravel-vo",
+    "require": {
+        "illuminate/contracts": "^5.1",
+        "illuminate/support": "^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.*",
+        "orchestra/testbench": "~3.0"
+    },
+    "authors": [
+        {
+            "name": "Kazik",
+            "email": "antenna@antenna.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Antennaio\\VO\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Antennaio\\VO\\Test\\": "tests"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
