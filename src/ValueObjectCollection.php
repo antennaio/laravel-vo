@@ -105,13 +105,13 @@ class ValueObjectCollection implements Arrayable, Countable, IteratorAggregate
     }
 
     /**
-     * Returns an iterator for items.
+     * Get an iterator for the items.
      *
      * @return ArrayIterator
      */
     public function getIterator()
     {
-        return $this->collection;
+        return $this->collection->getIterator();
     }
 
     /**
