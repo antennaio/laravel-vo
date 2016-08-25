@@ -11,7 +11,7 @@ of value objects in Laravel.
 Install through composer:
 
 ```
-composer require antennaio/laravel-vo
+composer require antennaio/laravel-vo:~0.0.1
 ```
 
 ## Usage - ValueObject
